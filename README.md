@@ -26,28 +26,35 @@
 - **🛡️ Safe by Design:** Discovery, duplicate analysis, and consolidation planning are strictly read-only. No files are modified or moved without your explicit review and confirmation.
 - **🔌 Sequential Step-by-Step Scan:** Cannot connect all your external SSDs and hard drives simultaneously? Scan each drive individually; Storage Compare caches their cryptographic fingerprints locally and cross-compares across disconnected drives.
 - **🗑️ Native macOS Trash Integration:** Reclaim space safely. Files marked for removal are routed through the native macOS Finder Trash (`FileManager.trashItem`), preserving recovery options.
+- **💾 In-App Data & Storage Management:** Monitor local database usage, inspect storage breakdown, manage caches, or reset app data safely from Storage Settings.
+- **🧹 Official macOS Safe Uninstaller:** Standalone uninstaller script and double-clickable `.command` to cleanly remove app data, catalogs, and preferences without touching user documents.
 - **⚡ Multi-Stage Telemetry Funnel:** Fast $O(1)$ size filtering, millisecond 8 KB chunk fingerprinting, and deep 64 KB streaming SHA-256 cryptographic hash verification.
 
 ---
 
 ## 📥 Download Storage Compare for macOS
 
-### Current Release: v1.0.0 (Apple Silicon)
+### Current Release: v1.0.1 (Apple Silicon)
 
 | Package | Format | Architecture | Minimum macOS | Size | Download Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Storage Compare v1.0.0** | `.dmg` | Apple Silicon (`arm64`: M1 / M2 / M3 / M4) | macOS 11.0 (Big Sur) or later | ~11.3 MB | [Download Storage Compare.dmg](https://github.com/Snaplyofficial/storage-compare-downloads/releases/download/v1.0.0/Storage.Compare.dmg) |
+| **Storage Compare v1.0.1** | `.dmg` | Apple Silicon (`arm64`: M1 / M2 / M3 / M4) | macOS 11.0 (Big Sur) or later | ~11.2 MB | [Download Storage Compare.dmg](https://github.com/Snaplyofficial/storage-compare-downloads/releases/download/v1.0.1/Storage.Compare.dmg) |
 
 ### Integrity Verification
 ```text
 Filename: Storage Compare.dmg
-SHA-256:  b8991d1890e28cf38181988a789189fdc8f57db3917b16130c1e33d1d5f15015
+SHA-256:  52871a10b7c599e2765fed418034c8ae031ada86ca360bc3525b00bd7c14282a
+Size:     11,774,305 bytes (~11.2 MB)
 ```
 
 To verify the downloaded DMG in Terminal:
 ```bash
 shasum -a 256 "Storage Compare.dmg"
 ```
+
+### Previous Releases
+
+- **v1.0.0 (Apple Silicon):** [Release Notes & Assets](https://github.com/Snaplyofficial/storage-compare-downloads/releases/tag/v1.0.0) • SHA-256: `b8991d1890e28cf38181988a789189fdc8f57db3917b16130c1e33d1d5f15015`
 
 > **Platform Availability Note:** This official release is compiled and optimized for Apple Silicon Macs (M1/M2/M3/M4). Windows and Linux desktop builds are in active development and will be released in future updates.
 
